@@ -6,9 +6,9 @@ package auth
 import (
 	"os"
 
-	"github.com/Azure/go-autorest/autorest"
-	"github.com/Azure/go-autorest/autorest/azure"
-	"github.com/Azure/go-autorest/autorest/azure/auth"
+	"github.com/scott-the-programmer/go-autorest/autorest"
+	"github.com/scott-the-programmer/go-autorest/autorest/azure"
+	"github.com/scott-the-programmer/go-autorest/autorest/azure/auth"
 )
 
 // NewAuthorizerFromEnvironment creates a keyvault dataplane Authorizer configured from environment variables in the order:
